@@ -10,7 +10,7 @@ def connect_to_zap(zap_url):
     retries = 3
     for attempt in range(retries):
         try:
-            zap = ZAPv2(proxies={"http": zap_url, "https": zap_url}, apikey="l28p9arrq21295l3kqdqv5kurg")
+            zap = ZAPv2(proxies={"http": zap_url, "https": zap_url}, apikey="")
             # Check if the API is accessible
             if zap.core.version:
                 return zap
