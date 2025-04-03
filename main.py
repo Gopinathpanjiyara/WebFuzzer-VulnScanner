@@ -9,7 +9,7 @@ from connection import connect_to_zap, get_zap_version
 
 def main():
     zap_url = "https://localhost:8081"
-    api_key = "l28p9arrq21295l3kqdqv5kurg"
+    api_key = ""
 
     print(colored("Initializing connection to ZAP...", "blue"))
     zap = connect_to_zap(zap_url)
